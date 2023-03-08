@@ -1,0 +1,78 @@
+<!-- Características -->
+<li class="hs-has-mega-menu nav-item"
+    data-hs-mega-menu-item-options='{
+      "desktop": {
+        "maxWidth": "30rem"
+      }
+    }'>
+  <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='landings'){active}" aria-current="page" href="#" role="button" aria-expanded="false">Características</a>
+
+  <!-- Mega Menu -->
+  <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;">
+    <!-- Main Content -->
+    <div class="navbar-dropdown-menu-inner">
+      <div class="row">
+        <div class="col-sm mb-3 mb-sm-0">
+          <span class="dropdown-header">Características</span>
+          <a class="dropdown-item @@if(link=='custom-material-management.html'){active}" href="@@autopath/custom-material-management.html">Gestión de Materiales</a>
+          <a class="dropdown-item @@if(link=='custom-cooperative-management.html'){active}" href="@@autopath/custom-cooperative-management.html">Gestión Cooperativa</a>
+          <a class="dropdown-item @@if(link=='custom-general-features.html'){active}" href="@@autopath/custom-general-features.html">Otras características</a>
+        </div>
+        <div class="col-sm">
+          <span class="dropdown-header">Odoo</span>
+<!--          <a class="dropdown-item @@if(link=='custom-general-features.html'){active}" href="@@autopath/custom-odoo-features.html"></a>-->
+          <a class="dropdown-item @@if(link==''){active}" href="https://www.odoo.com/es_ES">Página oficial</a>
+        </div>
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Main Content -->
+  </div>
+  <!-- End Mega Menu -->
+</li>
+<!-- End Características -->
+
+<!-- Docs -->
+<li class="hs-has-mega-menu nav-item"
+    data-hs-mega-menu-item-options='{
+      "desktop": {
+        "maxWidth": "20rem"
+      }
+    }'>
+  <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='docs'){active}" href="@@autopath/documentation/custom-index.html" role="button" aria-expanded="false">Docs</a>
+
+  <!-- Mega Menu -->
+  <div class="hs-mega-menu hs-position-right dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;">
+    <!-- Link -->
+    <a class="navbar-dropdown-menu-media-link" href="@@autopath/documentation/custom-index.html">
+      <div class="d-flex">
+        <div class="flex-shrink-0">
+          <span class="svg-icon svg-icon-sm text-primary">
+            @@include("../../assets/vendor/duotone-icons/fil/fil024.svg")
+          </span>
+        </div>
+
+        <div class="flex-grow-1 ms-3">
+          <span class="navbar-dropdown-menu-media-title">Documentación <span class="badge bg-primary rounded-pill ms-1">v1.0.0</span></span>
+          <p class="navbar-dropdown-menu-media-desc">Manuales de usuario</p>
+        </div>
+      </div>
+    </a>
+    <!-- End Link -->
+
+  </div>
+  <!-- End Mega Menu -->
+</li>
+<!-- End Docs -->
+
+<!-- Contacto -->
+<li class="hs-has-sub-menu nav-item">
+  <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle @@if(category=='blog'){active}" href="@@autopath/custom-page-contacts.html" role="button" aria-expanded="false">Contacto</a>
+  <!-- Mega Menu -->
+  <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 12rem;">
+    <a class="dropdown-item @@if(link=='blog-classic.html'){active}" href="@@autopath/custom-page-contacts.html">Contacto</a>
+  </div>
+  <!-- End Mega Menu -->
+</li>
+<!-- End Contacto -->
+

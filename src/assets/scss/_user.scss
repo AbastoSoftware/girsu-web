@@ -1,0 +1,37 @@
+/*------------------------------------
+  File for your custom SCSS style
+------------------------------------*/
+@import './_user-variables';
+
+
+.bg-primary-dark {
+  --bs-bg-opacity: 1;
+  background-color: $green !important;
+};
+
+.bg-primary-dark .border-top .border-white-10 {
+  --bs-bg-opacity: 1;
+  background-color: $dark-green !important;
+};
+
+.js-typedjs {
+  --bs-text-opacity: 1;
+  color: #000111;
+};
+
+.typed-cursor {
+    color: $dark-green;
+};
+
+.typed-cursor.typed-cursor--blink {
+    color: $dark-green;
+};
+
+.text-primary-light {
+    color: $dark-title;
+};
+
+.text-warning {
+  --bs-text-opacity: 1;
+  color: rgba(var($dark-green), var(--bs-text-opacity)) !important;
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Gestión cooperativa | Odoo GIRSU</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/custom-main.html", {
+      "category": "landings",
+      "link": "custom-cooperative-management.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Hero -->
+      <div class="content-space-b-3">
+        <div class="bg-soft-primary-light">
+          <div class="container">
+            <div class="row justify-content-center justify-content-lg-between">
+              <div class="col-md-6 content-space-t-1 content-space-md-1">
+                <!-- Heading -->
+                <div class="mb-7">
+                  <h1 class="display-4 text-primary mb-3 mb-md-5"><span class="text-black">Gestión</span> Cooperativa</h1>
+                  <br><p class="lead">Ten al día la información de la cooperativa y de sus asociados con toda la información jurídica según los requisitos de cada país</p>
+                </div>
+                <!-- End Heading -->
+              </div>
+              <!-- End Col -->
+
+              <div class="col-sm-10 col-md-6 col-lg-5">
+                <div class="row gx-2 transform-y-5rem">
+                  <div class="col-6">
+                    <div class="d-grid gap-2">
+                      <!-- Images -->
+                        <div class="d-none d-md-block bg-img-center" style="background-image: url(@@autopath/src/custom/custom-img/misc/coop1.jpg); height: 15.25rem;"></div>
+                      <div class="d-none d-md-block bg-img-center" style="background-image: url(@@autopath/src/custom/custom-img/misc/coop2.jpg); height: 18.25rem;"></div>
+                      <img class="d-md-none img-fluid w-100" src="@@autopath/src/custom/custom-img/misc/coop1.jpg" alt="Cooperativismo">
+                      <img class="d-md-none img-fluid w-100" src="@@autopath/src/custom/custom-img/misc/coop2.jpg" alt="Cooperativismo">
+                      <!-- End Images -->
+                    </div>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-6">
+                    <div class="d-grid gap-3">
+                      <!-- Images -->
+                      <div class="d-none d-md-block bg-img-center" style="background-image: url(@@autopath/src/custom/custom-img/misc/coop3.jpg); height: 25rem;"></div>
+<!--                      <div class="d-none d-md-block bg-img-center" style="background-image: url(@autopath/src/custom/custom-img/misc/coop4.jpg); height: 18rem;"></div>-->
+                      <img class="d-md-none img-fluid w-100" src="@@autopath/src/custom/custom-img/misc/coop3.jpg" alt="Cooperativismo">
+<!--                      <img class="d-md-none img-fluid w-100" src="@@autopath/src/custom/custom-img/misc/coop4.jpg" alt="Cooperativismo">-->
+                      <!-- End Images -->
+                    </div>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </div>
+        </div>
+      </div>
+      <!-- End Hero -->
+
+      <!-- Nav -->
+      <div class="container content-space-t-1 content-space-t-md-3">
+        <div class="row mb-3 mb-md-10">
+          <div class="col-md-3 mb-5 mb-md-0">
+            <!-- Nav -->
+            <ul class="nav nav-tabs nav-link-gray nav-vertical" id="featuresTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" href="#one" id="one-tab" data-bs-toggle="tab" data-bs-target="#one" role="tab" aria-controls="one" aria-selected="true">Persona Jurídica</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="#two" id="two-tab" data-bs-toggle="tab" data-bs-target="#two" role="tab" aria-controls="two" aria-selected="false">Asociados</a>
+              </li>
+            </ul>
+            <!-- End Nav -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-md-9">
+            <!-- Tab Content -->
+            <div class="tab-content" id="featuresTabContent">
+              <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                <div class="ps-md-5">
+                  <div class="row">
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/gen/gen005.svg")
+                      </span>
+
+                      <p>Mantén actualizada la información general de la persona jurídica</p>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/art/art008.svg")
+                      </span>
+                      <p>Ten al día las autoridades de tu cooperativa, y cuenta con un histórico de las mismas</p>
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <div class="row">
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/gen/gen014.svg")
+                      </span>
+                      <p>Registra los vencimientos del balance, la efectorización, la próxima asamblea ordinaria, entre otras fechas importantes</p>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/gen/gen004.svg")
+                      </span>
+                      <p>Carga los organismos de control de la entidad</p>
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                <div class="ps-md-5">
+                  <div class="row">
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/com/com006.svg")
+                      </span>
+                      <p>Carga información general del asociado así como los datos laborales, sanitarios, familiares, fiscales</p>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/com/com005.svg")
+                      </span>
+                      <p>Registre los subsidios de cada asociado</p>
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <div class="row">
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/teh/teh004.svg")
+                      </span>
+                      <p>Maneje de manera sencilla la liquidación de adelantos de asociado </p>
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6 mb-5">
+                      <span class="svg-icon text-primary mb-3">
+                        @@include("@@autopath/assets/vendor/duotone-icons/com/com013.svg")
+                      </span>
+                      <p><b style="background-color: #00d084">Próximamente</b> reglas de liquidación automática de asociados</p>
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content -->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Nav -->
+      <!-- End Icon Blocks -->
+      <!-- Mockup -->
+      <div class="bg-soft-primary-light">
+        <div class="container content-space-1 content-space-md-3">
+          <!-- Heading -->
+<!--          <div class="w-lg-65 text-center mx-lg-auto mb-7">-->
+<!--            <h3>Be seen - beautifully</h3>-->
+<!--            <p class="fs-6">Our powerful customisation tools will give you the freedom to decide how you want your product positioned.</p>-->
+<!--          </div>-->
+          <!-- End Heading -->
+
+          <!-- Devices -->
+          <div class="devices">
+            <!-- Mobile Device -->
+            <figure class="device-mobile rotated-3d-right">
+              <div class="device-mobile-frame">
+                <img class="device-mobile-img" src="@@autopath/src/custom/custom-img/screen/cooperative-management/phone-0.jpg" alt="Image Description">
+              </div>
+            </figure>
+            <!-- End Mobile Device -->
+
+            <!-- Browser Device -->
+            <figure class="device-browser">
+              <div class="device-browser-header">
+                <div class="device-browser-header-btn-list">
+                  <span class="device-browser-header-btn-list-btn"></span>
+                  <span class="device-browser-header-btn-list-btn"></span>
+                  <span class="device-browser-header-btn-list-btn"></span>
+                </div>
+                <div class="device-browser-header-browser-bar">www.tu-cooperativa.com/gestion/</div>
+              </div>
+
+              <div class="device-browser-frame">
+                <img class="device-browser-img" src="@@autopath/src/custom/custom-img/screen/cooperative-management/0.jpg" alt="Image Description">
+              </div>
+            </figure>
+            <!-- End Browser Device -->
+          </div>
+          <!-- End Devices -->
+                  <div class="mx-auto" style="max-width: 31.25rem;">
+          <!-- Alert -->
+          <div class="alert alert-soft-primary" role="alert">
+            <div class="d-sm-flex align-items-sm-center">
+              <div class="flex-shrink-0 mb-3 mb-sm-0">
+                <span class="svg-icon text-primary">
+                  @@include("@@autopath/assets/vendor/duotone-icons/gen/gen022.svg")
+                </span>
+              </div>
+
+              <div class="flex-grow-1 text-dark ms-sm-3 mb-3 mb-sm-0">Solicita tus credenciales para utilizar la Demo</div>
+
+              <div class="flex-shrink-0 ms-sm-3">
+                <a class="btn btn-primary" href="http://144.126.220.227/web" target="_blank">Demo</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Alert -->
+        </div>
+        </div>
+
+      </div>
+      <!-- End Mockup -->
+
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/custom-main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+
+
+        // INITIALIZATION OF TOGGLE SWITCH
+        // =======================================================
+         new HSToggleSwitch('.js-toggle-switch')
+      })()
+    </script>
+  </body>
+</html>

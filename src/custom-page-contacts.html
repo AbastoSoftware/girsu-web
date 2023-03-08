@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="@@languageDirection.lang" dir="@@if(languageDirection.isRTL){rtl}">
+  <head>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Contacto | Odoo GIRSU</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="@@autopath/favicon.ico">
+
+    <!-- Font -->
+    <link href="@@vars.themeFont" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <!-- bundlecss:vendor [@@autopath] -->
+    <link rel="stylesheet" href="@@autopath/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    <!-- CSS Space Template -->
+    <!-- bundlecss:theme [@@autopath] @@vars.version -->
+    <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    @@include("@@autopath/partials/navbar/custom-main.html", {
+      "category": "pages",
+      "link": "custom-page-contacts.html"
+    })
+    <!-- ========== END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" role="main">
+      <!-- Hero -->
+      <div class="shape-container bg-soft-primary">
+        <div class="position-relative zi-2">
+          <div class="container content-space-1 content-space-md-3">
+            <!-- Heading -->
+            <div class="w-lg-50 mb-5 mb-sm-10">
+              <h1 class="display-3 text-primary">Estemos en contacto</h1>
+              <p class="lead">Quieres hacernos una consulta ? Completa el formulario y nos pondremos en contacto</p>
+            </div>
+            <!-- End Heading -->
+
+            <div class="row">
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="me-md-6">
+                  <span class="svg-icon text-primary mb-3">
+                    @@include("@@autopath/assets/vendor/duotone-icons/com/com006.svg")
+                  </span>
+
+                  <h5>Asesoramiento</h5>
+                  <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+<!--                  <a href="#"> Sarasa ipsum <i class="bi-chevron-right small ms-1"></i></a>-->
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-md-4 mb-5 mb-md-0">
+                <div class="me-md-6">
+                  <span class="svg-icon text-primary mb-3">
+                    @@include("@@autopath/assets/vendor/duotone-icons/com/com007.svg")
+                  </span>
+
+                  <h5>Solicitud demostración</h5>
+                  <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+<!--                  <a href="#">Sarasa ipsum <i class="bi-chevron-right small ms-1"></i></a>-->
+                </div>
+              </div>
+              <!-- End Col -->
+
+              <div class="col-md-4">
+                <div class="me-md-6">
+                  <span class="svg-icon text-primary mb-3">
+                    @@include("@@autopath/assets/vendor/duotone-icons/fin/fin006.svg")
+                  </span>
+
+                  <h5>Capacitación</h5>
+                  <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+<!--                  <a href="#"> Sarasa ipsum <i class="bi-chevron-right small ms-1"></i></a>-->
+                </div>
+              </div>
+              <!-- End Col -->
+            </div>
+            <!-- End Row -->
+          </div>
+        </div>
+
+        <!-- Shape -->
+        <div class="shape shape-bottom zi-1">
+          <svg width="3000" height="600" viewBox="0 0 3000 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 600H3000V0L0 600Z" fill="#fff"/>
+          </svg>
+        </div>
+        <!-- End Shape -->
+      </div>
+      <!-- End Hero -->
+
+      <!-- Contact Form -->
+      <div class="container content-space-1 content-space-b-md-3">
+        <!-- Heading -->
+<!--        <div class="w-lg-65 mb-7">-->
+<!--          <h2>Completa el formulario y nos pondremos en contacto !</h2>-->
+<!--&lt;!&ndash;          <p>Discuss your connected payment needs with one of our global advisors.</p>&ndash;&gt;-->
+<!--        </div>-->
+        <!-- End Heading -->
+
+        <div class="row justify-content-md-between">
+          <div class="col-md-6 mb-7 mb-md-0">
+            <!-- Card -->
+            <div class="card card-lg">
+              <!-- Card Body -->
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormFirstName">Nombre completo</label>
+                        <input type="text" class="form-control" name="contactsFormNameFirstName" id="contactsFormFirstName" placeholder="Ingrese su nombre" aria-label="Ingrese su nombre">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+
+                    <div class="col-sm-6">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormLasttName">Apellido</label>
+                        <input type="text" class="form-control" name="contactsFormNameLastName" id="contactsFormLasttName" placeholder="Ingrese su apellido" aria-label="Ingrese su apellido">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormJobTitle">Rol / Area de trabajo</label>
+                    <input type="text" class="form-control" name="contactsFormNameJobTitle" id="contactsFormJobTitle" placeholder="Escriba aquí su rol o área de trabajo" aria-label="Escriba aquí">
+                  </div>
+                  <!-- End Form -->
+
+                  <div class="row">
+                    <div class="col-sm-12 mb-6 mb-sm-0">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormCompany">Entidad</label>
+                        <input type="text" class="form-control" name="contactsFormNameCompany" id="contactsFormCompany" placeholder="Nombre de la cooperativa" aria-label="Nombre de la cooperativa">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+
+<!--                    <div class="col-sm-6">-->
+<!--                      &lt;!&ndash; Form &ndash;&gt;-->
+<!--                      <div class="mb-4">-->
+<!--                        <label class="form-label" for="contactsFormCompanyWebsite">Company website</label>-->
+<!--                        <input type="text" class="form-control" name="contactsFormNameCompanyWebsite" id="contactsFormCompanyWebsite" placeholder="htmlstream.com" aria-label="htmlstream.com">-->
+<!--                      </div>-->
+<!--                      &lt;!&ndash; End Form &ndash;&gt;-->
+<!--                    </div>-->
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormWorkEmail">Correo electrónico</label>
+                    <input type="text" class="form-control" name="contactsFormNameWorkEmail" id="contactsFormWorkEmail" placeholder="Escriba aquí su casilla" aria-label="Escriba aquí su casilla">
+                  </div>
+                  <!-- End Form -->
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormDetails">Mensaje</label>
+                    <textarea class="form-control" name="contactsFormNameDetails" id="contactsFormDetails" placeholder="Escriba aquí su mensaje" aria-label="Escriba aquí su mensaje" rows="4"></textarea>
+                  </div>
+                  <!-- End Form -->
+
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                  </div>
+                </form>
+              </div>
+              <!-- End Card Body -->
+            </div>
+            <!-- End Card -->
+          </div>
+          <!-- End Col -->
+
+          <div class="col-md-6 col-lg-5">
+            <div class="mb-4">
+              <h6>Latitud R</h6>
+            </div>
+
+            <ul class="list-unstyled list-py-1">
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/ar.svg" alt="Image description"/>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>Ciudad Autónoma de Buenos Aires, Argentina</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span>Parera 15, C1014ABA CABA</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                    <span class="svg-icon svg-icon-xs text-muted mt-0">
+                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")
+                    </span>
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <span><b>Tel:</b> 011 4816-2400 / <b>Email: </b></span> comunicaciones@latitudr.org
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+<!--            <hr class="my-5">-->
+
+<!--            <ul class="list-unstyled list-py-1">-->
+<!--              <li>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">-->
+<!--                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description"/>-->
+<!--                  </div>-->
+<!--                  <div class="flex-grow-1 ms-2">-->
+<!--                    <span>San Francisco, US</span>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+
+<!--              <li>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">-->
+<!--                    <span class="svg-icon svg-icon-xs text-muted mt-0">-->
+<!--                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")-->
+<!--                    </span>-->
+<!--                  </div>-->
+<!--                  <div class="flex-grow-1 ms-2">-->
+<!--                    <span>517  Michigan Avenue, California, 94080</span>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+
+<!--              <li>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">-->
+<!--                    <span class="svg-icon svg-icon-xs text-muted mt-0">-->
+<!--                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")-->
+<!--                    </span>-->
+<!--                  </div>-->
+<!--                  <div class="flex-grow-1 ms-2">-->
+<!--                    <span>724-597-6746</span>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+<!--            </ul>-->
+
+<!--            <hr class="my-5">-->
+
+<!--            <ul class="list-unstyled list-py-1">-->
+<!--              <li>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">-->
+<!--                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/de.svg" alt="Image description"/>-->
+<!--                  </div>-->
+<!--                  <div class="flex-grow-1 ms-2">-->
+<!--                    <span>Berlin, Germany</span>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+
+<!--              <li>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">-->
+<!--                    <span class="svg-icon svg-icon-xs text-muted mt-0">-->
+<!--                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")-->
+<!--                    </span>-->
+<!--                  </div>-->
+<!--                  <div class="flex-grow-1 ms-2">-->
+<!--                    <span>Feldstrasse 62, Drackenstedt, Sachsen-Anhalt</span>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+
+<!--              <li>-->
+<!--                <div class="d-flex align-items-center">-->
+<!--                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">-->
+<!--                    <span class="svg-icon svg-icon-xs text-muted mt-0">-->
+<!--                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")-->
+<!--                    </span>-->
+<!--                  </div>-->
+<!--                  <div class="flex-grow-1 ms-2">-->
+<!--                    <span>039293 40 53</span>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </li>-->
+            </ul>
+
+<!--            <div class="mt-5">-->
+<!--              <h6>Contact sales by email</h6>-->
+<!--              <p>If you wish to write us an email instead please use <a href="mailto:example@site.com">example@site.com</a></p>-->
+<!--            </div>-->
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Contact Form -->
+    </main>
+    <!-- ========== END MAIN CONTENT ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    @@include("@@autopath/partials/footer/custom-main.html")
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- ========== SECONDARY CONTENTS ========== -->
+    <!-- Sign Up -->
+    @@include("@@autopath/partials/modal/signup.html")
+
+    <!-- Go To -->
+    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <!-- ========== END SECONDARY CONTENTS ========== -->
+
+    <!-- JS Global Compulsory @@deleteLine:build -->
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <!-- bundlejs:vendor [@@autopath] -->
+    <script src="@@autopath/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+
+    <!-- JS Space -->
+    <!-- bundlejs:theme [@@autopath] -->
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.bs-validation.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      (function() {
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
+
+
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
+
+
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
+
+
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
+      })()
+    </script>
+  </body>
+</html>

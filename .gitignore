@@ -1,0 +1,4 @@
+.idea/
+src/.tmp/
+.tmp/
+**/node_modules
