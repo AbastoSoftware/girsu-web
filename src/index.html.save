@@ -87,10 +87,7 @@
         <!-- Heading -->
         <div class="w-lg-65 text-center mx-lg-auto mb-7">
 <!--          <h3>Aliados</h3><br>-->
-          <p class="fs-5"><b style="background-color: #00d084">Sistema de gestión para cooperativas de recuperadores urbanos </b> que desarrollan actividades de recolección y recuperación de residuos sólidos.
-            Este sistema es desarrollado en Odoo Community, un software libre, comunitario y de codigo abierto  <b style="background-color: #00d084"> diseñado por las propias cooperativas </b>, integrantes de la Federación Argentina de Cartoneros, Carreros y Recicladores. Este es un proyecto de  Latitud R, junto a sus aliados Regionales, Fundación Avina y sus aliados locales en el Programa Recuperadores, Danone Ecosysteme, Aguas de Origen (ADO) con el apoyo de la Fundación Interamericana.</p>
-          <br>
-<!--          <p class="fs-5">Desde <b style="background-color: #00d084">Latitud R</b>, junto a nuestros aliados regionales en la plataforma: <b>Coca-Cola</b>, <b>PepsiCo</b>, <b>Dow</b>, <b>Nestlé</b>, <b>Banco Interamericano de Desarrollo</b>, <b>BID Lab</b>, <b>Red Latinoamericana de Recicladores</b> y <b>Fundación Avina</b>; presentamos un set de módulos para <b>Odoo</b> que dan forma a un <b style="background-color: #00d084">Sistema de Gestión Cooperativa de Residuos Sólidos Urbanos</b></p>-->
+          <p class="fs-5">Desde <b style="background-color: #00d084">Latitud R</b>, junto a nuestros aliados regionales en la plataforma: <b>Coca-Cola</b>, <b>PepsiCo</b>, <b>Dow</b>, <b>Nestlé</b>, <b>Banco Interamericano de Desarrollo</b>, <b>BID Lab</b>, <b>Red Latinoamericana de Recicladores</b> y <b>Fundación Avina</b>; presentamos un set de módulos para <b>Odoo</b> que dan forma a un <b style="background-color: #00d084">Sistema de Gestión Cooperativa de Residuos Sólidos Urbanos</b></p>
         </div>
         <!-- End Heading -->
       </div>
@@ -115,8 +112,8 @@
                       @@include("@@autopath/assets/vendor/duotone-icons/abs/abs043.svg")
                     </span>
 
-                    <h5>Seguridad</h5>
-                    <p>Contar con un sistema que ofrezca respaldo y seguridad a tu información</p>
+                    <h5>Transparencia</h5>
+                    <p>Aporta transparencia en la gestión integral de residuos sólidos urbanos</p>
 
 <!--                    <a class="link" href="@@autopath/page-services.html">Learn about our services <i class="bi-chevron-right small ms-1"></i></a>-->
                   </div>
@@ -127,8 +124,8 @@
                       @@include("@@autopath/assets/vendor/duotone-icons/abs/abs049.svg")
                     </span>
 
-                    <h5>Integración</h5>
-                    <p>Manejar desde una sola herramienta todos los aspectos de tu organización de forma segura, ágil y adaptada a cualquier dispositivo.</p>
+                    <h5>Flexibilidad</h5>
+                    <p>Se adapta a los distintos procesos y actores que lo integran</p>
 
 <!--                    <a class="link" href="@@autopath/page-services.html">Learn about our services <i class="bi-chevron-right small ms-1"></i></a>-->
                   </div>
@@ -139,11 +136,12 @@
                 <div class="row">
                   <div class="col-sm-6 mb-7 mb-sm-0">
                     <span class="svg-icon text-primary mb-3">
-                      @@include("@@autopath/assets/vendor/duotone-icons/abs/abs030.svg")
+                      @@include("@@autopath/assets/vendor/duotone-icons/gra/gra007.svg")
                     </span>
 
-                    <h5>Transparencia</h5>
-                    <p>Integrar la contabilidad, la comercialización así como también manejar los aspectos legales de las cooperativas y la nómina de asociados</p>
+                    <h5>Control y dirección</h5>
+                    <p>Facilita el análisis de la información para el control y la toma de decisiones</p>
+
 <!--                    <a class="link" href="@@autopath/page-services.html">Learn about our services <i class="bi-chevron-right small ms-1"></i></a>-->
                   </div>
                   <!-- End Col -->
@@ -154,7 +152,7 @@
                     </span>
 
                     <h5>Trazabilidad</h5>
-                    <p>Conocer en detalle el circuito de la gestión de los materiales fuera y dentro de la planta, desde el origen de la recolección de los residuos, como su clasificación procesamiento y comercialización posterior</p>
+                    <p>Registre todo el ciclo de los materiales recolectados y tratados</p>
 
 <!--                    <a class="link" href="@@autopath/page-services.html">Learn about our services <i class="bi-chevron-right small ms-1"></i></a>-->
                   </div>
@@ -189,7 +187,7 @@
           <!-- Nav Pills -->
           <div class="w-lg-65 text-center mx-lg-auto mb-7">
             <h3>Módulos GIRSU</h3>
-            <p class="fs-6">El conjunto de módulos que introducen las características propias de una cooperativa de tratamiento de residuos fue desarrollado por Abasto Software S.R.L. sobre Odoo en su versión comunitaria. <b style="background-color: #00d084"> Odoo es un sistema libre y de código abierto que cuenta con una inmensa comunidad de desarrolladores</b>. De esta forma permite integrar distintas localizaciones según el país donde se utilice. Posee flexibilidad a la hora de adaptar los planes de cuentas, las reglas impositivas y los documentos a generar, entre tantas otras cosas. </p>
+            <p class="fs-6">A las características de la versión comunitaria de Odoo le sumamos un conjunto de módulos que permiten gestionar una cooperativa orientada al tratamiento de residuos sólidos urbanos.</p>
           </div>
           <ul class="nav nav-pills mb-7" id="featuresTab" role="tablist">
             <li class="nav-item" role="presentation">
