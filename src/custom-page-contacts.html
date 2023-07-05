@@ -44,48 +44,136 @@
               <p class="lead">Quieres hacernos una consulta ? Completa el formulario y nos pondremos en contacto</p>
             </div>
             <!-- End Heading -->
+                  <!-- Contact Form -->
+        <div class="container content-space-1 content-space-b-md-3">
+          <div class="row justify-content-md-between">
+            <div class="col-md-6 mb-7 mb-md-0">
+              <!-- Card -->
+              <div class="card card-lg">
+                <!-- Card Body -->
+                <div class="card-body">
+                 <form action="/partials/send_mail.php" method="POST">
+                  <div class="row">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormFirstName">Nombre completo</label>
+                        <input type="text" class="form-control" name="contactsFormNameFirstName" id="contactsFormFirstName" placeholder="Ingrese su nombre" aria-label="Ingrese su nombre">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
 
-<!--            <div class="row">-->
-<!--              <div class="col-md-4 mb-5 mb-md-0">-->
-<!--                <div class="me-md-6">-->
-<!--                  <span class="svg-icon text-primary mb-3">-->
-<!--                    @@include("@@autopath/assets/vendor/duotone-icons/com/com006.svg")-->
-<!--                  </span>-->
+                    <div class="col-sm-6">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormLasttName">Apellido</label>
+                        <input type="text" class="form-control" name="contactsFormNameLastName" id="contactsFormLasttName" placeholder="Ingrese su apellido" aria-label="Ingrese su apellido">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
 
-<!--                  <h5>Asesoramiento</h5>-->
-<!--                  <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>-->
-<!--&lt;!&ndash;                  <a href="#"> Sarasa ipsum <i class="bi-chevron-right small ms-1"></i></a>&ndash;&gt;-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              &lt;!&ndash; End Col &ndash;&gt;-->
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormJobTitle">Rol / Area de trabajo</label>
+                    <input type="text" class="form-control" name="contactsFormNameJobTitle" id="contactsFormJobTitle" placeholder="Escriba aquí su rol o área de trabajo" aria-label="Escriba aquí">
+                  </div>
+                  <!-- End Form -->
 
-<!--              <div class="col-md-4 mb-5 mb-md-0">-->
-<!--                <div class="me-md-6">-->
-<!--                  <span class="svg-icon text-primary mb-3">-->
-<!--                    @@include("@@autopath/assets/vendor/duotone-icons/com/com007.svg")-->
-<!--                  </span>-->
+                  <div class="row">
+                    <div class="col-sm-12 mb-6 mb-sm-0">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="contactsFormCompany">Entidad</label>
+                        <input type="text" class="form-control" name="contactsFormNameCompany" id="contactsFormCompany" placeholder="Nombre de la cooperativa" aria-label="Nombre de la cooperativa">
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
 
-<!--                  <h5>Solicitud demostración</h5>-->
-<!--                  <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>-->
-<!--&lt;!&ndash;                  <a href="#">Sarasa ipsum <i class="bi-chevron-right small ms-1"></i></a>&ndash;&gt;-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              &lt;!&ndash; End Col &ndash;&gt;-->
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormWorkEmail">Correo electrónico</label>
+                    <input type="text" class="form-control" name="contactsFormNameWorkEmail" id="contactsFormWorkEmail" placeholder="Escriba aquí su casilla" aria-label="Escriba aquí su casilla">
+                  </div>
+                  <!-- End Form -->
 
-<!--              <div class="col-md-4">-->
-<!--                <div class="me-md-6">-->
-<!--                  <span class="svg-icon text-primary mb-3">-->
-<!--                    @@include("@@autopath/assets/vendor/duotone-icons/fin/fin006.svg")-->
-<!--                  </span>-->
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="contactsFormDetails">Mensaje</label>
+                    <textarea class="form-control" name="contactsFormNameDetails" id="contactsFormDetails" placeholder="Escriba aquí su mensaje" aria-label="Escriba aquí su mensaje" rows="4"></textarea>
+                  </div>
+                  <!-- End Form -->
 
-<!--                  <h5>Capacitación</h5>-->
-<!--                  <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>-->
-<!--&lt;!&ndash;                  <a href="#"> Sarasa ipsum <i class="bi-chevron-right small ms-1"></i></a>&ndash;&gt;-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              &lt;!&ndash; End Col &ndash;&gt;-->
-<!--            </div>-->
-            <!-- End Row -->
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                  </div>
+                </form>
+
+                </div>
+                <!-- End Card Body -->
+              </div>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col-md-6 col-lg-5">
+              <div class="mb-4">
+                <h6>Latitud R</h6>
+              </div>
+
+              <ul class="list-unstyled list-py-1">
+                <li>
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                      <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/ar.svg" alt="Image description"/>
+                    </div>
+                    <div class="flex-grow-1 ms-2">
+                      <span>Ciudad Autónoma de Buenos Aires, Argentina</span>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                      <span class="svg-icon svg-icon-xs text-muted mt-0">
+                        @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")
+                      </span>
+                    </div>
+                    <div class="flex-grow-1 ms-2">
+                      <span>Parera 15, C1014ABA CABA</span>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
+                      <span class="svg-icon svg-icon-xs text-muted mt-0">
+                        @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")
+                      </span>
+                    </div>
+                    <div class="flex-grow-1 ms-2">
+                      <span><b>Tel:</b> 011 4816-2400 / <b>Email: </b></span> comunicaciones@latitudr.org
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              </ul>
+
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+          </div>
+        </div>
 
         <!-- Shape -->
         <div class="shape shape-bottom zi-1">
@@ -97,143 +185,7 @@
       </div>
       <!-- End Hero -->
 
-      <!-- Contact Form -->
-      <div class="container content-space-1 content-space-b-md-3">
-        <!-- Heading -->
-<!--        <div class="w-lg-65 mb-7">-->
-<!--          <h2>Completa el formulario y nos pondremos en contacto !</h2>-->
-<!--&lt;!&ndash;          <p>Discuss your connected payment needs with one of our global advisors.</p>&ndash;&gt;-->
-<!--        </div>-->
-        <!-- End Heading -->
 
-        <div class="row justify-content-md-between">
-          <div class="col-md-6 mb-7 mb-md-0">
-            <!-- Card -->
-            <div class="card card-lg">
-              <!-- Card Body -->
-              <div class="card-body">
-               <form action="/partials/send_mail.php" method="POST">
-                <div class="row">
-                  <div class="col-sm-6 mb-4 mb-sm-0">
-                    <!-- Form -->
-                    <div class="mb-4">
-                      <label class="form-label" for="contactsFormFirstName">Nombre completo</label>
-                      <input type="text" class="form-control" name="contactsFormNameFirstName" id="contactsFormFirstName" placeholder="Ingrese su nombre" aria-label="Ingrese su nombre">
-                    </div>
-                    <!-- End Form -->
-                  </div>
-                  <!-- End Col -->
-
-                  <div class="col-sm-6">
-                    <!-- Form -->
-                    <div class="mb-4">
-                      <label class="form-label" for="contactsFormLasttName">Apellido</label>
-                      <input type="text" class="form-control" name="contactsFormNameLastName" id="contactsFormLasttName" placeholder="Ingrese su apellido" aria-label="Ingrese su apellido">
-                    </div>
-                    <!-- End Form -->
-                  </div>
-                  <!-- End Col -->
-                </div>
-                <!-- End Row -->
-
-                <!-- Form -->
-                <div class="mb-4">
-                  <label class="form-label" for="contactsFormJobTitle">Rol / Area de trabajo</label>
-                  <input type="text" class="form-control" name="contactsFormNameJobTitle" id="contactsFormJobTitle" placeholder="Escriba aquí su rol o área de trabajo" aria-label="Escriba aquí">
-                </div>
-                <!-- End Form -->
-
-                <div class="row">
-                  <div class="col-sm-12 mb-6 mb-sm-0">
-                    <!-- Form -->
-                    <div class="mb-4">
-                      <label class="form-label" for="contactsFormCompany">Entidad</label>
-                      <input type="text" class="form-control" name="contactsFormNameCompany" id="contactsFormCompany" placeholder="Nombre de la cooperativa" aria-label="Nombre de la cooperativa">
-                    </div>
-                    <!-- End Form -->
-                  </div>
-                  <!-- End Col -->
-                </div>
-                <!-- End Row -->
-
-                <!-- Form -->
-                <div class="mb-4">
-                  <label class="form-label" for="contactsFormWorkEmail">Correo electrónico</label>
-                  <input type="text" class="form-control" name="contactsFormNameWorkEmail" id="contactsFormWorkEmail" placeholder="Escriba aquí su casilla" aria-label="Escriba aquí su casilla">
-                </div>
-                <!-- End Form -->
-
-                <!-- Form -->
-                <div class="mb-4">
-                  <label class="form-label" for="contactsFormDetails">Mensaje</label>
-                  <textarea class="form-control" name="contactsFormNameDetails" id="contactsFormDetails" placeholder="Escriba aquí su mensaje" aria-label="Escriba aquí su mensaje" rows="4"></textarea>
-                </div>
-                <!-- End Form -->
-
-                <div class="d-grid">
-                  <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                </div>
-              </form>
-
-              </div>
-              <!-- End Card Body -->
-            </div>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-
-          <div class="col-md-6 col-lg-5">
-            <div class="mb-4">
-              <h6>Latitud R</h6>
-            </div>
-
-            <ul class="list-unstyled list-py-1">
-              <li>
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
-                    <img class="avatar avatar-xss avatar-circle" src="@@autopath/node_modules/flag-icon-css/flags/1x1/ar.svg" alt="Image description"/>
-                  </div>
-                  <div class="flex-grow-1 ms-2">
-                    <span>Ciudad Autónoma de Buenos Aires, Argentina</span>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
-                    <span class="svg-icon svg-icon-xs text-muted mt-0">
-                      @@include("@@autopath/assets/vendor/duotone-icons/gen/gen018.svg")
-                    </span>
-                  </div>
-                  <div class="flex-grow-1 ms-2">
-                    <span>Parera 15, C1014ABA CABA</span>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0 text-center" style="width: 1.5rem;">
-                    <span class="svg-icon svg-icon-xs text-muted mt-0">
-                      @@include("@@autopath/assets/vendor/duotone-icons/elc/elc002.svg")
-                    </span>
-                  </div>
-                  <div class="flex-grow-1 ms-2">
-                    <span><b>Tel:</b> 011 4816-2400 / <b>Email: </b></span> comunicaciones@latitudr.org
-                  </div>
-                </div>
-              </li>
-            </ul>
-            </ul>
-
-          </div>
-          <!-- End Col -->
-          </div>
-          </div>
-        </div>
-        <!-- End Row -->
-      </div>
       <!-- End Contact Form -->
     </main>
     <!-- ========== END MAIN CONTENT ========== -->
