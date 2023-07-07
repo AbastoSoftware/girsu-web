@@ -6,8 +6,6 @@ $entidad = $_POST['contactsFormNameCompany'];
 $email = $_POST['contactsFormNameWorkEmail'];
 $mensaje = $_POST['contactsFormNameDetails'];
 
-// Depuración: Mostrar los datos del formulario
-var_dump($_POST);
 
 // Configurar el destinatario del correo electrónico
 $destinatario = 'jpescio@abastosoftware.ar';
