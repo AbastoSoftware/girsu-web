@@ -6,7 +6,6 @@ $entidad = $_POST['contactsFormNameCompany'];
 $email = $_POST['contactsFormNameWorkEmail'];
 $mensaje = $_POST['contactsFormNameDetails'];
 
-
 // Configurar el destinatario del correo electrónico
 $destinatario = 'jpescio@abastosoftware.ar';
 // Configurar el asunto del correo electrónico
@@ -26,11 +25,11 @@ $headers = 'From: ' . $email . "\r\n" .
 
 if (mail($destinatario, $asunto, $cuerpo, $headers)) {
     // El correo se envió correctamente
-    header("Location: index.html"); // Redirige al usuario a la página principal
+    echo '<script>alert("Gracias por su mensaje. Nos pondremos en contacto pronto."); window.location.href = "index.html";</script>';
     exit();
 } else {
     // Hubo un error al enviar el correo
-    header("Location: custom-page-contacts.html"); // Permanece en la página de contacto
+    echo '<script>alert("Ocurrió un error al enviar el mensaje. Por favor, inténtelo de nuevo más tarde."); window.location.href = "custom-page-contacts.html";</script>';
     exit();
 }
 ?>
