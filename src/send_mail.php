@@ -26,9 +26,11 @@ $headers = 'From: ' . $email . "\r\n" .
 
 if (mail($destinatario, $asunto, $cuerpo, $headers)) {
     // El correo se envió correctamente
-    echo 'Gracias por su mensaje. Nos pondremos en contacto pronto.';
+    header("Location: index.html"); // Redirige al usuario a la página principal
+    exit();
 } else {
     // Hubo un error al enviar el correo
-    echo 'Ocurrió un error al enviar el mensaje. Por favor, inténtelo de nuevo más tarde.';
+    header("Location: custom-page-contacts.html"); // Permanece en la página de contacto
+    exit();
 }
 ?>
