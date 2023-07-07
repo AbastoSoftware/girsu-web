@@ -1,10 +1,13 @@
 <?php
-$nombre = $_POST['contactsFormNameFirstName'];//'Juan Manuel';
-$apellido = $_POST['contactsFormNameLastName'];//'Pescio';//
-$rol = $_POST['contactsFormNameJobTitle'];//'Desarrollador';//
-$entidad = $_POST['contactsFormNameCompany'];//'AS SRL';//
-$email = $_POST['contactsFormNameWorkEmail'];//'juanmp012@gmail.com';//
-$mensaje = $_POST['contactsFormNameDetails'];//'AEGAG  aeAG Agea';//
+$nombre = $_POST['contactsFormNameFirstName'];
+$apellido = $_POST['contactsFormNameLastName'];
+$rol = $_POST['contactsFormNameJobTitle'];
+$entidad = $_POST['contactsFormNameCompany'];
+$email = $_POST['contactsFormNameWorkEmail'];
+$mensaje = $_POST['contactsFormNameDetails'];
+
+// Depuración: Mostrar los datos del formulario
+var_dump($_POST);
 
 // Configurar el destinatario del correo electrónico
 $destinatario = 'jpescio@abastosoftware.ar';
