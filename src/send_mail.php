@@ -8,8 +8,12 @@ $mensaje = $_POST['contactsFormNameDetails'];
 
 // Configurar el destinatario del correo electrónico
 $destinatario = 'jpescio@abastosoftware.ar';
-// Configurar el asunto del correo electrónico
-$asunto = 'Nuevo mensaje de contacto desde Web GIRSU';
+
+// Obtener la fecha y hora actual
+$fechaHora = date('Y-m-d H:i:s');
+
+// Construir el asunto con la fecha y hora
+$asunto = 'Nuevo mensaje de contacto desde Web GIRSU - ' . $fechaHora;
 
 // Construir el cuerpo del correo electrónico
 $cuerpo = "Nombre: $nombre $apellido\n";
