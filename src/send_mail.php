@@ -7,7 +7,7 @@ $email = $_POST['contactsFormNameWorkEmail'];
 $mensaje = $_POST['contactsFormNameDetails'];
 
 // Configurar el destinatario del correo electrónico
-$destinatario = 'jpescio@abastosoftware.ar';
+$destinatario = 'comunicaciones@latitudr.org';
 
 // Obtener la fecha y hora actual
 $fechaHora = date('Y-m-d H:i:s');

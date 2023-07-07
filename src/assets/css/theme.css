@@ -22557,3 +22557,16 @@ a:hover .text-inherit {
   --bs-text-opacity: 1;
   color: rgba(var(#148537), var(--bs-text-opacity)) !important;
 }
+
+.logo-mobile {
+  display: none; /* Ocultar la imagen móvil por defecto */
+}
+
+@media (max-width: 767px) {
+  .logo-desktop {
+    display: none; /* Ocultar la imagen de escritorio en dispositivos móviles */
+  }
+  .logo-mobile {
+    display: block; /* Mostrar la imagen móvil en dispositivos móviles */
+  }
+}
