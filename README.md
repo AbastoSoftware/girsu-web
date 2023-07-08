@@ -3,7 +3,7 @@
 
 ### Apache:
 Instala Apache en tu servidor siguiendo los pasos adecuados para tu sistema operativo. 
-Aquí dejamos vínculo a la web oficial: https://httpd.apache.org/docs/2.4/es/install.html
+Para la documentación visita el [sitio web oficial](https://httpd.apache.org/docs/2.4/es/install.html)
 
 ### Descargar la web:
 
@@ -17,7 +17,7 @@ bash:
 
 Navega hasta el directorio raíz de la web y ejecuta el siguiente comando para instalar las dependencias:
 
-        npm install
+        npm install package.json
 
 ### Configuración de Apache:
 

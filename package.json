@@ -37,6 +37,7 @@
     "flag-icon-css": "^4.1.7",
     "fslightbox": "^3.3.1",
     "list.js": "^2.3.1",
+    "package.json": "^2.0.1",
     "shufflejs": "^6.1.0",
     "swiper": "^8.3.1",
     "typed.js": "^2.0.12"
